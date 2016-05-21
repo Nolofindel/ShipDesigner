@@ -8,8 +8,8 @@
     <ProjectGuid>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShipDesigner</RootNamespace>
-    <AssemblyName>ShipDesigner</AssemblyName>
+    <RootNamespace>Metier</RootNamespace>
+    <AssemblyName>Metier</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -35,8 +35,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="armor.cs" />
+    <Compile Include="Battleship.cs" />
+    <Compile Include="CombatComputer.cs" />
+    <Compile Include="Corvette.cs" />
+    <Compile Include="Cruiser.cs" />
+    <Compile Include="Destroyer.cs" />
+    <Compile Include="FtlDrive.cs" />
+    <Compile Include="Hull.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="Optional.cs" />
+    <Compile Include="PowerGenerator.cs" />
+    <Compile Include="Radar.cs" />
+    <Compile Include="Ship.cs" />
     <Compile Include="ShipDesigner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thruster.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -53,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

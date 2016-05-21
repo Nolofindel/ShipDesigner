@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace ShipDesigner
+namespace Metier
 {
     public class ShipDesigner : ContentPage
     {
