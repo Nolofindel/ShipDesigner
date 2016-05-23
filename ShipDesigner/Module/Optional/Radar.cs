@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Thruster
+    class Radar:Module
     {
     }
 }

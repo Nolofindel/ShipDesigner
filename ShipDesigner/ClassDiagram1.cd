@@ -4,134 +4,176 @@
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Ship.cs</FileName>
+      <FileName>Ship\Ship.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Hull" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Metier.Hull" Collapsed="true">
-    <Position X="6" Y="0.5" Width="1.5" />
+    <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>Hull.cs</FileName>
+      <FileName>Hull\Hull.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Module" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Metier.Module" Collapsed="true">
-    <Position X="10.5" Y="0.5" Width="1.5" />
-    <AssociationLine Name="CombatComputer" Type="Metier.CombatComputer" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="11.812" Y="1.062" />
-        <Point X="11.812" Y="1.531" />
-        <Point X="13.25" Y="1.531" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="Thruster" Type="Metier.Thruster" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="11.688" Y="1.062" />
-        <Point X="11.688" Y="2.094" />
-        <Point X="13.25" Y="2.094" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="Radar" Type="Metier.Radar" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="11.5" Y="1.062" />
-        <Point X="11.5" Y="3.093" />
-        <Point X="13.25" Y="3.093" />
-      </Path>
-    </AssociationLine>
-    <TypeIdentifier>
-      <HashCode>EAABAAAAAAACAAAgAAAAAAAAAgAIAAgAAAAAAAAAAAA=</HashCode>
-      <FileName>Module.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Utility" />
-      <Property Name="Weapon" />
-      <Property Name="FtlDrive" />
-      <Property Name="CombatComputer" />
-      <Property Name="Thruster" />
-      <Property Name="Radar" />
-      <Property Name="Optional" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Metier.Utility" Collapsed="true">
-    <Position X="7.75" Y="2.25" Width="1.5" />
+    <Position X="13.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Utility.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Metier.Weapon" Collapsed="true">
-    <Position X="9.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Weapon.cs</FileName>
+      <FileName>Module\Module.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Corvette" Collapsed="true">
     <Position X="0.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Corvette.cs</FileName>
+      <HashCode>AAAAABAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAACAAgA=</HashCode>
+      <FileName>Ship\Corvette.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Cruiser" Collapsed="true">
     <Position X="4" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cruiser.cs</FileName>
+      <HashCode>AAAAABEAAAAAAAAAAgAAAAAAAAAAAAAACAAAAACAAgA=</HashCode>
+      <FileName>Ship\Cruiser.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Battleship" Collapsed="true">
     <Position X="5.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Battleship.cs</FileName>
+      <HashCode>AAAAABEAAAAAAAAAAgAAAAAAAAAAAAAACAAAAACAAwA=</HashCode>
+      <FileName>Ship\Battleship.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Destroyer" Collapsed="true">
     <Position X="2.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Destroyer.cs</FileName>
+      <FileName>Ship\Destroyer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.CombatComputer" Collapsed="true">
-    <Position X="13.25" Y="1.25" Width="1.5" />
+    <Position X="18.75" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="Metier.Module" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.25" Y="1.062" />
+        <Point X="14.25" Y="1.438" />
+        <Point X="18.75" Y="1.438" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CombatComputer.cs</FileName>
+      <FileName>Module\Optional\CombatComputer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.FtlDrive" Collapsed="true">
-    <Position X="13.25" Y="0.5" Width="1.5" />
+    <Position X="18.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FtlDrive.cs</FileName>
+      <FileName>Module\Optional\FtlDrive.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Radar" Collapsed="true">
-    <Position X="13.25" Y="2.75" Width="1.5" />
+    <Position X="18.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Radar.cs</FileName>
+      <FileName>Module\Optional\Radar.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Thruster" Collapsed="true">
-    <Position X="13.25" Y="2" Width="1.5" />
+    <Position X="18.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Thruster.cs</FileName>
+      <FileName>Module\Optional\Thruster.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Metier.Optional" Collapsed="true">
-    <Position X="13.25" Y="3.5" Width="1.5" />
+    <Position X="18.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Optional.cs</FileName>
+      <FileName>Module\Optional\Optional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.BackHull" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="Metier.Hull" FixedFromPoint="true">
+      <Path>
+        <Point X="9.125" Y="1.062" />
+        <Point X="9.125" Y="1.437" />
+        <Point X="8.25" Y="1.437" />
+        <Point X="8.25" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hull\BackHull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.MainHull" Collapsed="true">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="Metier.Hull" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.125" Y="1.062" />
+        <Point X="9.125" Y="1.437" />
+        <Point X="9.125" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hull\MainHull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.FrontHull" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Metier.Hull" FixedFromPoint="true">
+      <Path>
+        <Point X="9.125" Y="1.062" />
+        <Point X="9.125" Y="1.437" />
+        <Point X="10" Y="1.437" />
+        <Point X="10" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hull\FrontHull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.PowerGenerator" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\Utility\PowerGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Shield" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\Utility\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.armor" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\Utility\armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Utility" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\Utility\Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Weapon" Collapsed="true">
+    <Position X="14.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\Weapon\Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

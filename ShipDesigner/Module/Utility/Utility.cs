@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class armor
+    abstract class Utility:Module
     {
     }
 }

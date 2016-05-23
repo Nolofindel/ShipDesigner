@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Hull
+    abstract class Hull
     {
-        internal Module Module
+        public Module Module
         {
             get
             {

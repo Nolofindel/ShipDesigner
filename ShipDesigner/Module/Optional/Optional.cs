@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Corvette:Ship
+    class Optional:Module
     {
     }
 }

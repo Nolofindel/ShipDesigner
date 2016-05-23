@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Battleship:Ship
+    abstract class Module
     {
     }
 }

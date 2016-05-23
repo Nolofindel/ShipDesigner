@@ -8,7 +8,7 @@ namespace Metier
 {
     abstract class Ship
     {
-        internal Hull Hull
+        public Hull Hull
         {
             get
             {
