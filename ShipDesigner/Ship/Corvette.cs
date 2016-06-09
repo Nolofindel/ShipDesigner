@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Corvette:Ship
+    public class Corvette:Ship
     {
         private MainHull hull;
         private FtlDrive ftlDrive;
@@ -21,6 +21,10 @@ namespace Metier
             this.combatComputer = combatComputer;
             this.thruster = thruster;
             this.radar = radar;
+        }
+
+        public Corvette()
+        {
         }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metier
+namespace ShipDesignerBll
 {
-    public abstract class Utility:Module
+    class OptionalManager
     {
     }
 }

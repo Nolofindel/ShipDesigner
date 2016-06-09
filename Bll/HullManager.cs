@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metier
+namespace Bll
 {
-    public abstract class Utility:Module
+    class HullManager
     {
     }
 }

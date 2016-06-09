@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Destroyer : Ship
+    public class Destroyer : Ship
     {
     }
 }

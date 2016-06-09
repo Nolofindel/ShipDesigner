@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Cruiser : Ship
+    public class Cruiser : Ship
     {
         private FrontHull fronthull;
         private MainHull hull;
@@ -25,6 +25,10 @@ namespace Metier
             this.combatComputer = combatComputer;
             this.thruster = thruster;
             this.radar = radar;
+        }
+
+        public Cruiser()
+        {
         }
     }
 }

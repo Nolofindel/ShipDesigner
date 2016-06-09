@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class CombatComputer:Module
+    public class CombatComputer:Module
     {
     }
 }

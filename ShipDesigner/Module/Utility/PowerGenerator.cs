@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class PowerGenerator:Utility
+    public class PowerGenerator :Utility
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Battleship:Ship
+   public  class Battleship:Ship
     {
         private FrontHull fronthull;
         private MainHull hull;
@@ -27,6 +27,10 @@ namespace Metier
             this.thruster = thruster;
             this.radar = radar;
             this.optional = optional;
+        }
+
+        public Battleship()
+        {
         }
     }
 }

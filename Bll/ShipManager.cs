@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Metier
+using Bo;
+namespace Bll
 {
-    public abstract class Utility:Module
+    class ShipManager
     {
+        public Ship
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    abstract class Module
+    public abstract class Module
     {
     }
 }

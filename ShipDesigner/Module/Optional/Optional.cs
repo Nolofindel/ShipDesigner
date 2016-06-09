@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Optional:Module
+    public class Optional :Module
     {
     }
 }

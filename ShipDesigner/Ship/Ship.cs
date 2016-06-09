@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    abstract class Ship
+    public abstract class Ship
     {
         public Hull Hull
         {

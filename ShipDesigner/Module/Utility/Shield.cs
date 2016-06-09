@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class Shield:Utility
+    public class Shield :Utility
     {
     }
 }

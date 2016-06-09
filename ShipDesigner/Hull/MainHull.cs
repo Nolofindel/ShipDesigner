@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class MainHull:Hull
+    public class MainHull :Hull
     {
     }
 }

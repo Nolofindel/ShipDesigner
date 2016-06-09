@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    class FtlDrive:Module
+    public class FtlDrive :Module
     {
     }
 }
